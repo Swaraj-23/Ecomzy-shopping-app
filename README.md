@@ -8,7 +8,7 @@ The Shopping App is a React-based e-commerce application designed to provide use
 
 - **Shopping Cart:** Easily manage your selected items in the cart. The cart page provides a summary of selected products, including quantities and a total amount. Users can add or remove items from the cart.
 
-- **Navbar:** Toggle between light and dark modes for improved readability and a personalized viewing experience.Navigate effortlessly through the application using the navigation bar. It includes links to the home page and the cart, allowing users to switch between different sections of the app.
+- **Navbar:** Navigate effortlessly through the application using the navigation bar. It includes links to the home page and the cart, allowing users to switch between different sections of the app.
 
 - **Toast Notifications:** Receive real-time feedback on actions like adding or removing items from the cart through toast notifications, enhancing the user experience.
 
