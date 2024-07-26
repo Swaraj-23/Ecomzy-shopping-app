@@ -32,12 +32,12 @@ function Product({ post }) {
         <img src={post.image} className="h-full w-full" />
       </div>
 
-      <div className="flex justify-around gap-12 items-center w-full mt-5 mb-5">
+      <div className="flex justify-around gap-8 items-center w-full mt-5 mb-5">
         <div>
           <p className="text-green-600 font-semibold">${post.price}</p>
         </div>
         <div>
-          <p>Size : M</p>
+          <p className="text-cyan-700">Size : M</p>
         </div>
 
         {cart.some((p) => p.id === post.id) ? (
