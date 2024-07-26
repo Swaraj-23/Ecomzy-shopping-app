@@ -36,6 +36,9 @@ function Product({ post }) {
         <div>
           <p className="text-green-600 font-semibold">${post.price}</p>
         </div>
+        <div>
+          <p>Size : M</p>
+        </div>
 
         {cart.some((p) => p.id === post.id) ? (
           <button onClick={removeFromCart} className="text-gray-700 border-2 border-gray-700 rounded-full font-semibold text-[12px] p-1 px-3 uppercase hover:bg-gray-700 hover:text-white transition duration-300 ease-in">Remove Item</button>
